@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Currency converter</h2>
+        <form action="">
+            <p class="enter">Enter amount</p>
+            <input type="text" class="amount" value="100" >
+            <div class="country-box">
+                <div class="from">
+                    <div class="countrylist">
+                        <img src="https://flagcdn.com/us.svg" alt="">
+                        <select name="from" class="country-name">
+                        </select>
+                        </div>
+                    <p>From</p>
+               
+                </div>
+                <div class="to">
+                   <div class="countrylist">
+                    <img src="https://flagcdn.com/in.svg" alt="">
+                    <select name="to" class="country-name">
+                    </select>
+                   </div> 
+                   <p>To</p>
+                </div>
+            </div>
+            <div class="result-box">
+                1 USD= 80.54 INR
+            </div>
+            <button>Search result</button>
+
+        </form>
+    </div>
+    <script src="country.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

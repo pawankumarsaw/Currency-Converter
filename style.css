@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(125, 125, 127);
+
+}
+.container{
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);  
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 1px 2px 20px;
+    padding: 30px;
+}
+h2{
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+.enter{
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.amount{
+  height: 2rem;
+  width: 100%;
+  background-color: rgb(244, 244, 244);
+  margin-bottom: 1rem;
+  border: 1px solid rgb(169, 167, 167);
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.country-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+.countrylist{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2px9;
+
+}
+p{
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+.result-box{
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+button{
+  height: 2rem;
+  width: 100%;
+  background-color: rgb(209, 226, 238);
+  margin-bottom: 1rem;
+  border: 1px solid rgb(169, 167, 167);
+  border-radius: 5px;
+  font-size: 1rem;
+}
+select{
+  font-size: 1rem;
+}
+img{
+  height: 2rem;
+  width: 2rem;
+}
